@@ -7,7 +7,7 @@ It was developed for working together with the following hardware:
 Currently it has two modes:
 
 ## Jekins/Hudsun mode
-In this mode the software is polling in an interval of 5 seconds on a configured Jenkins/Hudson job visualizing the status. When the build is currently running, the lamp will blink, if the build is finished, the light will be contiously on. The project can be changed using the tray icon.
+In this mode the software is polling in an interval of 5 seconds on a configured Jenkins/Hudson job visualizing the status. When the build is currently running, the lamp will blink, if the build is finished, the light will be continuously on. The project can be changed using the tray icon.
 
 ## Cheerlights mode
 Additionally the light can be used as a "Cheerlight" implementing the [Cheerlight API](http://cheerlights.com/cheerlights-api/).
