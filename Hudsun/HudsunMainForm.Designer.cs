@@ -37,8 +37,8 @@
             this.contextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.visibilityButton = new System.Windows.Forms.ToolStripMenuItem();
             this.projectButton = new System.Windows.Forms.ToolStripMenuItem();
-            this.quitButton = new System.Windows.Forms.ToolStripMenuItem();
             this.cheerLightOnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quitButton = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +67,7 @@
             this.hudsonUrl.Name = "hudsonUrl";
             this.hudsonUrl.Size = new System.Drawing.Size(180, 20);
             this.hudsonUrl.TabIndex = 2;
-            this.hudsonUrl.Text = "http://dedorawb1";
+            this.hudsonUrl.Text = "http://your-jenkins-server";
             // 
             // notifyIcon
             // 
@@ -85,36 +85,36 @@
             this.cheerLightOnToolStripMenuItem,
             this.quitButton});
             this.contextMenu.Name = "contextMenu";
-            this.contextMenu.Size = new System.Drawing.Size(153, 114);
+            this.contextMenu.Size = new System.Drawing.Size(150, 92);
             // 
             // visibilityButton
             // 
             this.visibilityButton.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.visibilityButton.Name = "visibilityButton";
-            this.visibilityButton.Size = new System.Drawing.Size(152, 22);
+            this.visibilityButton.Size = new System.Drawing.Size(149, 22);
             this.visibilityButton.Text = "Show/Hide";
             this.visibilityButton.Click += new System.EventHandler(this.VisibilityButtonClick);
             // 
             // projectButton
             // 
             this.projectButton.Name = "projectButton";
-            this.projectButton.Size = new System.Drawing.Size(152, 22);
+            this.projectButton.Size = new System.Drawing.Size(149, 22);
             this.projectButton.Text = "Open project";
             this.projectButton.Click += new System.EventHandler(this.ProjectButtonClick);
-            // 
-            // quitButton
-            // 
-            this.quitButton.Name = "quitButton";
-            this.quitButton.Size = new System.Drawing.Size(152, 22);
-            this.quitButton.Text = "Quit";
-            this.quitButton.Click += new System.EventHandler(this.QuitButtonClick);
             // 
             // cheerLightOnToolStripMenuItem
             // 
             this.cheerLightOnToolStripMenuItem.Name = "cheerLightOnToolStripMenuItem";
-            this.cheerLightOnToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cheerLightOnToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.cheerLightOnToolStripMenuItem.Text = "Cheer light on";
             this.cheerLightOnToolStripMenuItem.Click += new System.EventHandler(this.CheerLightOnToolStripMenuItemClick);
+            // 
+            // quitButton
+            // 
+            this.quitButton.Name = "quitButton";
+            this.quitButton.Size = new System.Drawing.Size(149, 22);
+            this.quitButton.Text = "Quit";
+            this.quitButton.Click += new System.EventHandler(this.QuitButtonClick);
             // 
             // HudsunMainForm
             // 
